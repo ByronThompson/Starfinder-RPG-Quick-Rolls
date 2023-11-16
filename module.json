@@ -1,0 +1,30 @@
+{
+  "id": "sfrpgqr",
+  "title": "Starfinder Quick Rolls",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "sfrpg",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Griff4218",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "scripts/sfrpgqr.js"
+  ],
+  "styles": [
+		"styles/sfrpgqr.css"
+	]
+}

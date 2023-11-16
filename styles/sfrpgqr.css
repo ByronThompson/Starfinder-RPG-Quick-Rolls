@@ -1,0 +1,58 @@
+.chat-message .message-content .damage-application {
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+    order: 3;
+  }
+  .chat-message .message-content .damage-application button {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: var(--font-size-18);
+    height: 2em;
+    justify-content: space-around;
+    line-height: unset;
+    padding: 0;
+  }
+  .chat-message .message-content .damage-application button.half-damage {
+    position: relative;
+  }
+  .chat-message .message-content .damage-application button.half-damage i.fa-heart-broken {
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, var(--color-text-dark-primary) 50%, var(--color-text-light-6) 50%);
+  }
+  .chat-message .message-content .damage-application button > img {
+    border: none;
+    height: var(--font-size-18);
+  }
+  .chat-message .message-content .damage-application button .label {
+    font-size: 0.5em;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  .chat-message .message-content .damage-application button.apply-healing .fa-stack {
+    font-size: 0.5em;
+  }
+  .chat-message .message-content .damage-application button.apply-healing .fa-stack i.fa-plus {
+    font-size: var(--font-size-11);
+  }
+  .chat-message .message-content .damage-application button.healing-only {
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.25rem;
+  }
+  .chat-message .message-content .damage-application button.healing-only .fa-stack {
+    font-size: 0.5em;
+  }
+  .chat-message .message-content .damage-application button.healing-only .fa-stack i.fa-plus {
+    font-size: var(--font-size-11);
+  }
+  .chat-message .message-content .damage-application button.healing-only .label {
+    font-size: var(--font-size-14);
+    font-weight: normal;
+    text-transform: none;
+  }
